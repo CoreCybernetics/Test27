@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Socket.IO Chat Example</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+  .inputMessage {
+    border: 10px solid #000;
+    bottom: 0;
+    height: 60px;
+    left: 0;
+    outline: none;
+    padding-left: 10px;
+    position: absolute;
+    right: 0;
+    width: 100%;
+  }
+  </style>
+</head>
+<body>
+      <ul class="messages" style="background-color:lightblue"></ul>
+      <input class="inputMessage" placeholder="Type here..."/>
+      </ul>
+
+  <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/main.js"></script>
+</body>
+</html>
